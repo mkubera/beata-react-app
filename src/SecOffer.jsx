@@ -1,4 +1,6 @@
 import React from "react";
+// import Box from "./Box";
+import Boxes from "./Boxes";
 
 function SecOffer() {
   return (
@@ -6,15 +8,7 @@ function SecOffer() {
       <div class="container">
         <p class="headerBig headerLight">Czym zajmuje się nasza firma?</p>
         <div class="innerSection boxes">
-          <div class="box">
-            <div class="circleSmall"></div>
-            Usługa 1 (nowość)
-          </div>
-          <div class="box">Usługa 2</div>
-          <div class="box">Usługa 3</div>
-          <div class="box">Usługa 4</div>
-          <div class="box">Usługa 5</div>
-          <div class="box">Usługa 6</div>
+          <Boxes></Boxes>
         </div>
       </div>
     </section>

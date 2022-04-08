@@ -1,6 +1,6 @@
 @font-face {
   font-family: Roboto;
-  src: url(D:\BEATKA\Kurs FrontEnd Developer\PROJEKTY\Project_REACT_01_Firm\vite-REACT-01-FIRM\src\Roboto-Regular.ttf);
+  src: url("./Roboto-Regular.ttf");
 }
 
 html {
@@ -70,7 +70,7 @@ section {
 
 .secMain {
   height: 100vh;
-  background-image: url(D:\BEATKA\Kurs FrontEnd Developer\PROJEKTY\Project_REACT_01_Firm\vite-REACT-01-FIRM\src\buildings2_1800_1000.jpg);
+  background-image: url("./buildings2_1800_1000.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -242,7 +242,7 @@ Rozwiązaniem jest kolor rgb z opacity na końcu */
 }
 
 .employeeImg2 {
-  background-image: url(D:\BEATKA\Kurs FrontEnd Developer\PROJEKTY\Project_REACT_01_Firm\vite-REACT-01-FIRM\src\pracownik2.jpg);
+  background-image: url("./pracownik2.jpg");
   background-position: center;
   background-size: cover;
 }
