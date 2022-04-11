@@ -233,16 +233,14 @@ Rozwiązaniem jest kolor rgb z opacity na końcu */
   height: 197px;
   width: 197px;
   border-radius: 50%;
+  background-position: center;
+  background-size: cover;
 }
 
 .employeeImg1 {
   background-image: url("./pracownik1.jpg");
-  background-position: center;
-  background-size: cover;
 }
 
 .employeeImg2 {
   background-image: url("./pracownik2.jpg");
-  background-position: center;
-  background-size: cover;
 }

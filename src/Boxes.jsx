@@ -10,27 +10,15 @@ function Boxes() {
     { num: 6, isNew: 0 },
   ];
 
-  // const isNewParam =
-  //   item.isNew == 1 ? (
-  //     <div class="box">
-  //       <div class="circleSmall"></div>
-  //       {"Usługa " + item.num + " (nowość)"}
-  //     </div>
-  //   ) : (
-  //     <div class="box">{"Usługa " + item.num}</div>
-  //   );
-
-  return offersParam.map(
-    (item) =>
-      item.isNew == 1 ? (
-        <div class="box">
-          <div class="circleSmall"></div>
-          {"Usługa " + item.num + " (nowość)"}
-        </div>
-      ) : (
-        <div class="box">{"Usługa " + item.num}</div>
-      )
-    // <div> {isNewParam}</div>
+  return offersParam.map((item) =>
+    item.isNew == 1 ? (
+      <div class="box">
+        <div class="circleSmall"></div>
+        {"Usługa " + item.num + " (nowość)"}
+      </div>
+    ) : (
+      <div class="box">{"Usługa " + item.num}</div>
+    )
   );
 }
 
