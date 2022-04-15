@@ -8,7 +8,7 @@ function Employee() {
       job_position: "[dział Ofertowy]",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero ultrices.",
-      image_url: "src/pracownik1.jpg",
+      image_url: "./images/pracownik1.jpg",
     },
     {
       name: "Aida",
@@ -16,7 +16,7 @@ function Employee() {
       job_position: "[dział Obsługi Klienta]",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero ultrices.",
-      image_url: "/src/pracownik2.jpg",
+      image_url: "images/pracownik1.jpg",
     },
   ];
 
